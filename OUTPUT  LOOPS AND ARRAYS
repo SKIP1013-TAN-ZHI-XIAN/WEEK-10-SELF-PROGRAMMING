@@ -1,0 +1,22 @@
+Enter sales
+12.50
+8.35
+19.60
+25.00
+14.00
+39.43
+35.90
+98.23
+66.65
+35.64
+Sales are : 12.5 8.35 19.6 25.0 14.0 39.43 35.9 98.23 66.65 35.64 
+The sum of sales is = 355.30
+The average of sales is = 35.53
+The largest of the sales is = 19.6
+The maxIndex is = 2
+The largest of the sales is = 25.0
+The maxIndex is = 3
+The largest of the sales is = 39.43
+The maxIndex is = 5
+The largest of the sales is = 98.23
+The maxIndex is = 7
