@@ -1,0 +1,13 @@
+Enter five numbers one number per line
+12
+24
+36
+48
+60
+Numbers are : index 0 = 12
+Numbers are : index 1 = 24
+Numbers are : index 2 = 36
+Numbers are : index 3 = 48
+Numbers are : index 4 = 60
+The sum of the numbers = 180
+The average of the numbers = 36
