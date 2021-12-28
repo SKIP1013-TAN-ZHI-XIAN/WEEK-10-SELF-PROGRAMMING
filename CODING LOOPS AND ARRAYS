@@ -29,12 +29,12 @@ class LoopsAndArrays {
 	
 		// Printing an array
 		System.out.print("Sales are : ");
-		for(index = 0; index < sales.length; index++) {
+		for (index = 0; index < sales.length; index++) {
 			System.out.print(sales[index] + " ");
 		}
 		
 		// Find the sum and average of an array
-		for(index = 0; index < sales.length; index++) { 
+		for (index = 0; index < sales.length; index++) { 
 			sum = sum + sales[index];
 		}
 		System.out.printf("\nThe sum of sales is = %.2f", sum);
