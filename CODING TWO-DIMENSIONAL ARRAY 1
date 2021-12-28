@@ -13,8 +13,8 @@ class TwoDimensionalArray1 {
 		Scanner input = new Scanner(System.in);
 		
 		for (row = 0; row < sales.length; row++) {
-		    for (col = 0; col < sales[row].length; col++)
-		    	sales[row][col] = 0.0;
+		    	for (col = 0; col < sales[row].length; col++)
+		    		sales[row][col] = 0.0;
 		}
 	
 		for (row = 0; row < sales.length; row++) {
