@@ -1,0 +1,33 @@
+package selfProgramming;
+
+import java.util.*;
+
+class TwoDimensionalArray2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[][] sales = new double[2][4];
+	    double sum;
+	    sum = 0;
+	    double avg = sum / sales.length;
+	    
+	    Scanner input = new Scanner(System.in);
+	    
+	    System.out.println("Enter sales");
+	    for (int i = 0; i < sales.length; i++) 
+	    	for (int k = 0; k < sales.length; k++) {
+	    		sales[i][k] = input.nextInt();
+	    		sum = sum + sales[i][k];
+	    }
+	    
+	    for (int i = 0; i < sales.length; i++) 
+	    	for (int k = 0; k < sales.length; k++) {
+	    		System.out.println("i = " + i);
+	    		System.out.println("k = " + k);
+	    		System.out.println("Value for sales is : " + sales[i][k]);
+	    }
+	    System.out.println("The sum of sales is = " + sum);
+	    System.out.println("The average of sales is = " + avg);
+	}
+
+}
