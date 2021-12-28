@@ -14,7 +14,6 @@ class TwoDimensionalArray3 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("The sequences are : ");
-		System.out.println();
 		
 		for (row = 0; row < matrix.length; row++) {
 		    	for (col = 0; col < matrix[row].length; col++)
