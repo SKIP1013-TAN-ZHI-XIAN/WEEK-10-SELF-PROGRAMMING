@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.*;
+
+class OneDimensionalArray2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] test = new int[5];
+		int sum;
+	    sum = 0;
+	    
+	    Scanner input = new Scanner(System.in);
+	    
+	    System.out.println("Enter five marks one number per line");
+	    for (int i = 0; i < test.length; i++) {
+	    	test[i] = input.nextInt();
+	    	sum = sum + test[i];
+	    }
+	    
+	    for (int i = 0; i < test.length; i++) {
+	    	System.out.println("Marks are : " + "test " + i + " = " + test[i]);
+	    }
+	    System.out.println("The sum of the marks = " + sum);
+	    System.out.println("The average of the marks = " + sum / test.length);   
+	}
+
+}
