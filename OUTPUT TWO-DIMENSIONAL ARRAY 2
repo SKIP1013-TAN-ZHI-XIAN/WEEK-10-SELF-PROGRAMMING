@@ -1,0 +1,19 @@
+Enter sales
+23
+41
+87
+19
+i = 0
+k = 0
+Value for sales is : 23.0
+i = 0
+k = 1
+Value for sales is : 41.0
+i = 1
+k = 0
+Value for sales is : 87.0
+i = 1
+k = 1
+Value for sales is : 19.0
+The sum of sales is = 170.0
+The average of sales is = 0.0
