@@ -31,6 +31,8 @@ class TwoDimensionalArray3 {
 				matrix[row][col] = input.nextInt();
 		}
 		
+		System.out.println();
+		
 		for (row = 0; row < matrix.length; row++) {
 			largest = matrix[row][0];
 			for (col = 1; col < matrix[row].length; col++)
