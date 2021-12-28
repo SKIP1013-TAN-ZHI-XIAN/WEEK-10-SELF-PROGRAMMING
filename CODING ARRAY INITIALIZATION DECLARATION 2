@@ -1,0 +1,25 @@
+package selfProgramming;
+
+import java.util.*;
+
+class ArrayInitializationDeclaration2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int row;
+		int col;
+		int[][] board = {{2, 3, 1}, {15, 25, 13}, {20, 4, 7}, {11, 18, 14}};
+	    
+	    Scanner input = new Scanner(System.in);
+	    
+	    System.out.println("Default value of int board element : "); 
+	    for (row = 0; row < board.length; row++) {
+	    	for (col = 0; col < board[row].length; col++)
+	    		board[row][col] = board[row][col] - col;
+	    }
+	    System.out.println(board[1][1]);
+	    System.out.println(board[2][1]);
+	    System.out.println(board[3][2]);
+	}
+
+}
