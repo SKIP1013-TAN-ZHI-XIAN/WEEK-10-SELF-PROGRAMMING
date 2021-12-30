@@ -19,7 +19,7 @@ class InstanceVariableLength {
 		}
 		System.out.println("The list.length = 6");
 		System.out.println("The sum of the list = " + sum);
-		System.out.println("The average of the list = " + (sum / list.length));   
+		System.out.println("The average of the list = " + sum / list.length);   
 	}
 
 }
