@@ -7,7 +7,7 @@ class TwoDimensionalArray2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double[][] sales = new double[2][4];
-	    	double sum;
+	    	double sum, avg;
 		
 	    	Scanner input = new Scanner(System.in);
 	    
@@ -25,7 +25,7 @@ class TwoDimensionalArray2 {
 	    			System.out.println("k = " + k);
 	    			System.out.println("Value for sales is : " + sales[i][k]);
 	    	}
-	    	double avg = sum / sales.length;
+	    	avg = sum / sales.length;
 		System.out.println("The sum of sales is = " + sum);
 	    	System.out.println("The average of sales is = " + avg);
 	}
