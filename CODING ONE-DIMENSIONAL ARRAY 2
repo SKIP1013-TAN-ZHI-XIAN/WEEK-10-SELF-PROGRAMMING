@@ -8,12 +8,12 @@ class OneDimensionalArray2 {
 		// TODO Auto-generated method stub
 		int[] test = new int[5];
 		int sum;
-	    	sum = 0;
-	    
+	    	
 	    	Scanner input = new Scanner(System.in);
 	    
 	    	System.out.println("Enter five marks one number per line");
-	    	for (int i = 0; i < test.length; i++) {
+	    	sum = 0;
+		for (int i = 0; i < test.length; i++) {
 	    		test[i] = input.nextInt();
 	    		sum = sum + test[i];
 	    	}
