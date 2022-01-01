@@ -1,0 +1,21 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to find the duplicate values of an array of integer values
+		int[] numberArray = {11, 12, 16, 18, 18, 19, 13, 14, 13, 11};
+		
+		for (int i = 0; i < numberArray.length - 1; i++) {
+			for (int y = i + 1; y < numberArray.length; y++) {
+				if ((numberArray[i] == numberArray[y]) && (i != y)) {
+					System.out.println("Duplicate Element : " + numberArray[y]);
+                }
+            }
+        }  
+	}
+
+}
