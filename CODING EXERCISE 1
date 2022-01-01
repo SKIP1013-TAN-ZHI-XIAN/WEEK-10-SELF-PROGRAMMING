@@ -15,12 +15,12 @@ class Exercise1 {
 		String[] nameArray = {"Hibiscus", "Orchid", "Violet", "Daisy", "Lily", "Rose", "Cherry Blossom", "Bellflower", "Tulip", "Rafflesia", "Carnation"};
 		
 		System.out.println("Original numeric array : " + Arrays.toString(numberArray));
-	    Arrays.sort(numberArray);
-	    System.out.println("Sorted numeric array : " + Arrays.toString(numberArray));
+	    	Arrays.sort(numberArray);
+	    	System.out.println("Sorted numeric array : " + Arrays.toString(numberArray));
 	    
-	    System.out.println("Original string array : " + Arrays.toString(nameArray));
-	    Arrays.sort(nameArray);
-	    System.out.println("Sorted string array : " + Arrays.toString(nameArray)); 
+	    	System.out.println("Original string array : " + Arrays.toString(nameArray));
+	    	Arrays.sort(nameArray);
+	    	System.out.println("Sorted string array : " + Arrays.toString(nameArray)); 
 	}
 
 }
