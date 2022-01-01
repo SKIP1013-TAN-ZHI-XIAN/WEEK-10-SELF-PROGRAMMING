@@ -13,9 +13,9 @@ class Exercise12 {
 			for (int y = i + 1; y < numberArray.length; y++) {
 				if ((numberArray[i] == numberArray[y]) && (i != y)) {
 					System.out.println("Duplicate Element : " + numberArray[y]);
-                }
-            }
-        }  
+                		}
+            		}
+        	}  
 	}
 
 }
