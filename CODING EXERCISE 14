@@ -11,18 +11,18 @@ class Exercise14 {
 		String[] animalArray2 = {"Zebra", "Donkey", "Chicken", "Duck", "Fish", "Giraffe", "Lion"};
 	       
 		System.out.println("Animal Array 1 : " + Arrays.toString(animalArray1));
-	    System.out.println("Animal Array2 : " + Arrays.toString(animalArray2));
+	    	System.out.println("Animal Array2 : " + Arrays.toString(animalArray2));
 	 
-	    HashSet<String> list = new HashSet<String>();  //HashSet is used to access elements randomly or store a list of items which cannot contain duplicate values
+	    	HashSet<String> list = new HashSet<String>();  // HashSet is used to access elements randomly or store a list of items which cannot contain duplicate values
 	 
-	    for (int i = 0; i < animalArray1.length; i++) {
-	    	for (int y = 0; y < animalArray2.length; y++) {
-	    		if(animalArray1[i].equals(animalArray2[y])) {
-	    			list.add(animalArray1[i]);
+	    	for (int i = 0; i < animalArray1.length; i++) {
+	    		for (int y = 0; y < animalArray2.length; y++) {
+	    			if(animalArray1[i].equals(animalArray2[y])) {
+	    				list.add(animalArray1[i]);
+	    			}
 	    		}
 	    	}
-	    }
-	    System.out.println("Common / Repeat Element : " + (list));  //Output : [Three, Four, Five]
+	    	System.out.println("Common / Repeat Element : " + (list));  //Output : [Three, Four, Five]
 	}
 
 }
