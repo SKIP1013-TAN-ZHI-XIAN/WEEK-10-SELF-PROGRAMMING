@@ -1,0 +1,20 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to sum values of an array
+		int numberArray[] = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+		int sum;
+		
+		sum = 0;
+		for (int i : numberArray) {
+			sum += i;	
+		}
+		System.out.println("The sum is = " + sum);
+	}
+
+}
