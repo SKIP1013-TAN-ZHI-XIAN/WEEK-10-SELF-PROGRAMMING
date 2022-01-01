@@ -1,0 +1,4 @@
+Original numeric array : [101, 227, 545, 880, 666, 900, 311, 762, 955, 432, 283, 998]
+Sorted numeric array : [101, 227, 283, 311, 432, 545, 666, 762, 880, 900, 955, 998]
+Original string array : [Hibiscus, Orchid, Violet, Daisy, Lily, Rose, Cherry Blossom, Bellflower, Tulip, Rafflesia, Carnation]
+Sorted string array : [Bellflower, Carnation, Cherry Blossom, Daisy, Hibiscus, Lily, Orchid, Rafflesia, Rose, Tulip, Violet]
