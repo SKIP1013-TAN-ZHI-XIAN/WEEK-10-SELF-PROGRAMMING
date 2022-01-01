@@ -6,12 +6,12 @@ class Exercise5 {
 	
 	// Write a Java program to test if an array contains a specific value
 	public static boolean contains(int[] array, int list) {
-	      for (int y : array) {
-	         if (list == y) {
-	            return true;
-	         }
-	      }
-	      return false;
+	      	for (int y : array) {
+	         	if (list == y) {
+	            	return true;
+	         	}
+	      	}
+	      	return false;
 	}
 
 	public static void main(String[] args) {
@@ -19,9 +19,9 @@ class Exercise5 {
 		int[] numberArray = {1988, 1604, 2002, 2021, 1965, 2018, 1784, 1979};
 		
 		System.out.println(contains(numberArray, 2017));
-	    System.out.println(contains(numberArray, 2021));
-	    System.out.println(contains(numberArray, 1965));
-	    System.out.println(contains(numberArray, 1977));
+	    	System.out.println(contains(numberArray, 2021));
+	    	System.out.println(contains(numberArray, 1965));
+	    	System.out.println(contains(numberArray, 1977));
 	}
 
 }
