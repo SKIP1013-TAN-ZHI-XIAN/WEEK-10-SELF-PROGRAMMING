@@ -1,0 +1,21 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to copy an array by iterating the array;
+		int[] numberArray1 = {13, 64, 78, 21, 96, 39, 60, 42};
+		int[] numberArray2 = new int[8];     
+		 
+		System.out.println("Source Array : " + Arrays.toString(numberArray1));     
+		   
+		for (int i = 0; i < numberArray1.length; i++) {
+			numberArray2[i] = numberArray1[i];
+		}
+		System.out.println("New Array : " + Arrays.toString(numberArray2));
+	}
+
+}
