@@ -1,0 +1,21 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to print the following grid
+		int[][] grid = new int [6][6];
+		
+		for (int i = 0; i < 6; i++) {
+			for (int j = 0; j < 6; j++) {
+				grid[i][j] = 10;
+				System.out.printf("%2d ", grid[i][j]);
+			}
+			System.out.println();
+		}
+	}
+
+}
