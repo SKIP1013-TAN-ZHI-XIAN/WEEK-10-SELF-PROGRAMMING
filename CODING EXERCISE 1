@@ -1,0 +1,26 @@
+package selfProgramming;
+
+import java.util.*; 
+
+class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to sort a numeric array and a string array
+		int[] numberArray = { 
+				101, 227, 545, 880,
+				666, 900, 311, 762,
+				955, 432, 283, 998 };
+		
+		String[] nameArray = {"Hibiscus", "Orchid", "Violet", "Daisy", "Lily", "Rose", "Cherry Blossom", "Bellflower", "Tulip", "Rafflesia", "Carnation"};
+		
+		System.out.println("Original numeric array : " + Arrays.toString(numberArray));
+	    Arrays.sort(numberArray);
+	    System.out.println("Sorted numeric array : " + Arrays.toString(numberArray));
+	    
+	    System.out.println("Original string array : " + Arrays.toString(nameArray));
+	    Arrays.sort(nameArray);
+	    System.out.println("Sorted string array : " + Arrays.toString(nameArray)); 
+	}
+
+}
