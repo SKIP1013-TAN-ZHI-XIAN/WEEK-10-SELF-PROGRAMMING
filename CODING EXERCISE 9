@@ -9,8 +9,7 @@ class Exercise9 {
 		// Write a Java program to insert an element (specific position) into an array;
 		int[] numberArray = {13, 63, 43, 53, 23, 33, 73, 93, 83, 3};
 
-	    // Insert an element in 8th position of the array (index -> 8, value -> 103)
-	   
+	    	// Insert an element in 8th position of the array (index -> 8, value -> 103)
 		int indexPosition = 7;
 		int newInteger = 103;
 
@@ -20,7 +19,7 @@ class Exercise9 {
 			numberArray[i] = numberArray[i - 1];
 		}
 		numberArray[indexPosition] = newInteger;
-	   System.out.println("New Array : " + Arrays.toString(numberArray));
+	   	System.out.println("New Array : " + Arrays.toString(numberArray));
 	}
 
 }
