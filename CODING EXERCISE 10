@@ -10,33 +10,33 @@ class Exercise10 {
 	// Write a Java program to find the maximum and minimum value of an array
 	public static void max_min(int numberArray[]) {
 		max = numberArray[0];
-        min = numberArray[0];
-        int length = numberArray.length;
+        	min = numberArray[0];
+        	int length = numberArray.length;
         
-        for (int i = 1; i < length - 1; i = i + 2) {
-            if (i + 1 > length) {
-                if (numberArray[i] > max) max = numberArray[i];
-                if (numberArray[i] < min) min = numberArray[i];
-            }
-            if (numberArray[i] > numberArray[i + 1]) {
-                if (numberArray[i] > max) max = numberArray[i];
-                if (numberArray[i + 1] < min) min = numberArray[i + 1];
-            }
-            if (numberArray[i] < numberArray[i + 1]) {
-                if (numberArray[i] < min) min = numberArray[i];
-                if (numberArray[i + 1] > max) max = numberArray[i + 1];
-            }
+        	for (int i = 1; i < length - 1; i = i + 2) {
+            	if (i + 1 > length) {
+                	if (numberArray[i] > max) max = numberArray[i];
+                	if (numberArray[i] < min) min = numberArray[i];
+            	}
+            	if (numberArray[i] > numberArray[i + 1]) {
+                	if (numberArray[i] > max) max = numberArray[i];
+                	if (numberArray[i + 1] < min) min = numberArray[i + 1];
+            	}
+            	if (numberArray[i] < numberArray[i + 1]) {
+                	if (numberArray[i] < min) min = numberArray[i];
+                	if (numberArray[i + 1] > max) max = numberArray[i + 1];
+            	}
         }
-    }
+}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] numberArray = {955, 912, 968, 941, 909, 987, 921, 918, 935, 911};
-        max_min(numberArray);
+        	max_min(numberArray);
         
-        System.out.println("Original Array : " + Arrays.toString(numberArray));
-        System.out.println("Maximum value is = " + max);
-        System.out.println("Minimum value is = " + min);
+        	System.out.println("Original Array : " + Arrays.toString(numberArray));
+        	System.out.println("Maximum value is = " + max);
+        	System.out.println("Minimum value is = " + min);
 	}
 
 }
