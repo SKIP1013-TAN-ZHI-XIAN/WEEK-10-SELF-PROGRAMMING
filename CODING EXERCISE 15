@@ -1,0 +1,25 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to find the common elements between two arrays of integers
+		int[] yearArray1 = {2008, 2012, 2005, 2005, 2018, 2009, 2007, 2010};
+		int[] yearArray2 = {2008, 2000, 2016, 2015, 2016, 2014, 2007, 2000};
+	 
+		System.out.println("Year Array 1 : " + Arrays.toString(yearArray1));
+		System.out.println("Year Array 2 : " + Arrays.toString(yearArray2));
+
+		for (int i = 0; i < yearArray1.length; i++) {
+			for (int y = 0; y < yearArray2.length; y++) {
+				if(yearArray1[i] == (yearArray2[y])) {
+					System.out.println("Common / Repeat Element : " + (yearArray1[i]));
+				}
+			}
+		}
+	}
+
+}
