@@ -1,0 +1,21 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to find the duplicate values of an array of string values
+		String[] wordArray = {"Victor", "Jane", "Albert", "Jasmine", "Tonny", "Isabella", "Isabella", "Jane", "Victor", "Daniel", "Tonny", "William"};
+		 
+        for (int i = 0; i < wordArray.length-1; i++) {
+        	for (int y = i + 1; y < wordArray.length; y++) {
+        		if((wordArray[i].equals(wordArray[y])) && (i != y)) {
+        			System.out.println("Duplicate Element : " + wordArray[y]);
+                }
+            }
+        }
+	}
+
+}
