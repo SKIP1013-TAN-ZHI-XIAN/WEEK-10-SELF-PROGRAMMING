@@ -13,43 +13,43 @@ class Exercise19 {
 	 
 		System.out.println("Input number of rows of matrix");
 		q = input.nextInt();
-	    System.out.println("Input number of columns of matrix");
-	    r  = input.nextInt();
+	    	System.out.println("Input number of columns of matrix");
+	    	r  = input.nextInt();
 	 
-	    int numberArray1[][] = new int[q][r];
-	    int numberArray2[][] = new int[q][r];
-	    int sum[][] = new int[q][r];
+	    	int numberArray1[][] = new int[q][r];
+	    	int numberArray2[][] = new int[q][r];
+	    	int sum[][] = new int[q][r];
 	 
-	    System.out.println("Input the elements of first matrix");
+	    	System.out.println("Input the elements of first matrix");
 	 
-	    for (y = 0; y < q; y++) {
-	    	for (z = 0; z < r; z++) {
-	    		numberArray1[y][z] = input.nextInt();
+	    	for (y = 0; y < q; y++) {
+	    		for (z = 0; z < r; z++) {
+	    			numberArray1[y][z] = input.nextInt();
+	    		}
 	    	}
-	    }
 	 
-	    System.out.println("Input the elements of second matrix");
+	   	System.out.println("Input the elements of second matrix");
 	 
-	    for (y = 0 ; y < q; y++) {
-	    	for (z = 0; z < r; z++) {
-	    		numberArray2[y][z] = input.nextInt();
+	    	for (y = 0 ; y < q; y++) {
+	    		for (z = 0; z < r; z++) {
+	    			numberArray2[y][z] = input.nextInt();
+	    		}
 	    	}
-	    }
 	    
-	    for (y = 0; y < q; y++) {
-	    	for (z = 0; z < r; z++) {
-	             sum[y][z] = numberArray1[y][z] + numberArray2[y][z]; 
+	    	for (y = 0; y < q; y++) {
+	    		for (z = 0; z < r; z++) {
+	             		sum[y][z] = numberArray1[y][z] + numberArray2[y][z]; 
+	    		}
 	    	}
-	    }
 	    
-	    System.out.println("Sum of the matrices : ");
+	    	System.out.println("Sum of the matrices : ");
 	 
-	    for (y = 0; y < q;  y++) {
-	    	for (z = 0 ; z < r; z++) {
-	    		System.out.print(sum[y][z] + "\t");
+	    	for (y = 0; y < q;  y++) {
+	    		for (z = 0 ; z < r; z++) {
+	    			System.out.print(sum[y][z] + "\t");
+	    		}
+	    		System.out.println();
 	    	}
-	    	System.out.println();
-	    }
 	}
 
 }
