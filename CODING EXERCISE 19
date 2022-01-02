@@ -1,0 +1,55 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to add two matrices of the same size
+		int q, r, y, z;
+	      
+		Scanner input = new Scanner(System.in);
+	 
+		System.out.println("Input number of rows of matrix");
+		q = input.nextInt();
+	    System.out.println("Input number of columns of matrix");
+	    r  = input.nextInt();
+	 
+	    int numberArray1[][] = new int[q][r];
+	    int numberArray2[][] = new int[q][r];
+	    int sum[][] = new int[q][r];
+	 
+	    System.out.println("Input the elements of first matrix");
+	 
+	    for (y = 0; y < q; y++) {
+	    	for (z = 0; z < r; z++) {
+	    		numberArray1[y][z] = input.nextInt();
+	    	}
+	    }
+	 
+	    System.out.println("Input the elements of second matrix");
+	 
+	    for (y = 0 ; y < q; y++) {
+	    	for (z = 0; z < r; z++) {
+	    		numberArray2[y][z] = input.nextInt();
+	    	}
+	    }
+	    
+	    for (y = 0; y < q; y++) {
+	    	for (z = 0; z < r; z++) {
+	             sum[y][z] = numberArray1[y][z] + numberArray2[y][z]; 
+	    	}
+	    }
+	    
+	    System.out.println("Sum of the matrices : ");
+	 
+	    for (y = 0; y < q;  y++) {
+	    	for (z = 0 ; z < r; z++) {
+	    		System.out.print(sum[y][z] + "\t");
+	    	}
+	    	System.out.println();
+	    }
+	}
+
+}
