@@ -1,0 +1,57 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise16 {
+	   
+	// Write a Java program to remove duplicate elements from an array
+	static void specialArray(int[] numberArray) {
+	        System.out.println("Original Array : ");
+	         
+	        for (int i = 0; i < numberArray.length; i++) {
+	        	System.out.print(numberArray[i] + "\t");
+	        }
+	         
+	        // Assuming all elements in input array are unique
+	        int noSpecialElements = numberArray.length;
+	         
+	        // Comparing each element with all other elements
+	         
+	        for (int i = 0; i < noSpecialElements; i++) {
+	            for (int j = i+1; j < noSpecialElements; j++) {
+	                // If any two elements are found equal
+	            	if (numberArray[i] == numberArray[j]) {
+	                    //Replace duplicate element with last unique element
+	            		numberArray[j] = numberArray[noSpecialElements - 1];
+	            		noSpecialElements--;
+	                    j--;
+	                }
+	            }
+	        }
+	         
+	        // Copying only unique elements of my_array into array1
+	        int[] array1 = Arrays.copyOf(numberArray, noSpecialElements);
+	         
+	        //Printing arrayWithoutDuplicates
+	        System.out.println();
+	         
+	        System.out.println("Array with unique values : ");
+	         
+	        for (int i = 0; i < array1.length; i++) {
+	            System.out.print(array1[i]+"\t");
+	        }
+	         
+	        System.out.println();
+	         
+	        System.out.println("--------------------------------------------");
+	}
+	     
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		specialArray(new int[] {14, 19, -12, 10, 19, 16});
+        
+        specialArray(new int[] {20, 22, 26, 20, 29, 22});
+	}
+
+}
