@@ -1,0 +1,16 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to convert an array to ArrayList
+		String[] carArray = new String[] {"Honda", "Toyota", "BMW",  "Mercedes-Benz", "Audi", "Volkswagen"};
+		ArrayList<String> list = new ArrayList<String>(Arrays.asList(carArray));
+
+		System.out.println("Car brand : " + list);
+	}
+
+}
