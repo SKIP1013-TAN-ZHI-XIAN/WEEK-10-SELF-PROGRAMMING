@@ -32,7 +32,7 @@ class Exercise16 {
 	        // Copying only unique elements of my_array into array1
 	        int[] array1 = Arrays.copyOf(numberArray, noSpecialElements);
 	         
-	        //Printing arrayWithoutDuplicates
+	        // Printing arrayWithoutDuplicates
 	        System.out.println();
 	         
 	        System.out.println("Array with unique values : ");
@@ -46,7 +46,6 @@ class Exercise16 {
 	        System.out.println("--------------------------------------------");
 	}
 	     
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		specialArray(new int[] {14, 19, -12, 10, 19, 16});
