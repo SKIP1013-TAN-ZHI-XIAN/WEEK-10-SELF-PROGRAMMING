@@ -1,0 +1,24 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to find the second largest element in an array
+		int[] numberArray = { 
+				1011, 2273, 5457, 8800,
+				6666, 9001, 3116, 7622,
+				9558, 4325, 2834, 9983 };
+		
+		System.out.println("Original number array : " + Arrays.toString(numberArray));
+		Arrays.sort(numberArray);
+		int index = numberArray.length - 1;
+		while(numberArray[index] == numberArray[numberArray.length - 1]) {
+			index--;
+		}
+		System.out.println("Second largest element : " + numberArray[index]);
+	}
+
+}
