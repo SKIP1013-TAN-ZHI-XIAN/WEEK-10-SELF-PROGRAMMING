@@ -10,19 +10,19 @@ class Exercise18 {
 		int[] numberArray = {-21, 43, 0, 29, 76, -8};
 	    
 		System.out.println("Original numeric array : "+ Arrays.toString(numberArray));
-	    int min = Integer.MAX_VALUE;
-	    int secondMin = Integer.MAX_VALUE;
-	    for (int i = 0; i < numberArray.length; i++) {
-	        if(numberArray[i] == min){
-	          secondMin = min;
-	        } else if (numberArray[i] < min) {
-	            secondMin = min;
-	            min = numberArray[i];
-	        } else if (numberArray[i] < secondMin) {
-	            secondMin = numberArray[i];
-	        }
-	    }
-	    System.out.println("Second smallest element is : " + secondMin);
+	    	int min = Integer.MAX_VALUE;
+	    	int secondMin = Integer.MAX_VALUE;
+	    	for (int i = 0; i < numberArray.length; i++) {
+	        	if(numberArray[i] == min){
+	          		secondMin = min;
+	        	} else if (numberArray[i] < min) {
+	            		secondMin = min;
+	           		min = numberArray[i];
+	        	} else if (numberArray[i] < secondMin) {
+	            		secondMin = numberArray[i];
+	        	}
+	    	}
+	    	System.out.println("Second smallest element is : " + secondMin);
 	}
 
 }
