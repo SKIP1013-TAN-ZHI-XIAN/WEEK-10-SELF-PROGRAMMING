@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.*;
+
+class Exercise18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write a Java program to find the second smallest element in an array
+		int[] numberArray = {-21, 43, 0, 29, 76, -8};
+	    
+		System.out.println("Original numeric array : "+ Arrays.toString(numberArray));
+	    int min = Integer.MAX_VALUE;
+	    int secondMin = Integer.MAX_VALUE;
+	    for (int i = 0; i < numberArray.length; i++) {
+	        if(numberArray[i] == min){
+	          secondMin = min;
+	        } else if (numberArray[i] < min) {
+	            secondMin = min;
+	            min = numberArray[i];
+	        } else if (numberArray[i] < secondMin) {
+	            secondMin = numberArray[i];
+	        }
+	    }
+	    System.out.println("Second smallest element is : " + secondMin);
+	}
+
+}
