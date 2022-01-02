@@ -1,0 +1,28 @@
+Input number of rows of matrix
+3
+Input number of columns of matrix
+3
+Input the elements of first matrix
+11
+22
+33
+44
+55
+66
+77
+88
+99
+Input the elements of second matrix
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Sum of the matrices : 
+12	24	36	
+48	60	72	
+84	96	108	
